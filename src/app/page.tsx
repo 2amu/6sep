@@ -235,7 +235,7 @@ const AnniversaryPage: React.FC = () => {
           </div>
           <p>
             Desde aquel <span className="highlight">6 de septiembre</span>,
-            esa fecha que quedó grabada en nuestro corazones, comenzamos a escribir
+            esa fecha quedó grabada en nuestro corazones, comenzamos a escribir
             juntos una nueva vida. Y, aunque a veces me equivoque, puedo decir con el corazón que desde ese entonces, cada día te quiero más.
           </p>
           <div className="image-wrapper">
