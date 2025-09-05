@@ -27,6 +27,25 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <style>{`
+        h1 {
+          font-size: 3em;
+          text-align: center;
+          margin-top: 20px;
+          color: #4a148c;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+          animation: fadeIn 2s ease-in;
+        }
+        .heart {
+          color: #e91e63;
+          font-size: 2em;
+          display: inline-block;
+          animation: pulse 1s infinite;
+        }
+      `}</style>
+        <h1>
+        Nuestro Amor a Través del Tiempo <span className="heart">♥</span>
+        </h1>
         {children}
       </body>
     </html>
