@@ -136,7 +136,7 @@ const CollagePage: React.FC = () => {
         }
       `}</style>
 
-      <h1>Praga<span aria-hidden="true">🫂</span></h1>
+      <h1>Praga<span aria-hidden="true">🌍</span></h1>
       <section className="collage" aria-label="Collage de fotos románticas">
         {images.map(({ src, alt }, i) => (
           <figure key={i} className="photo" tabIndex={0}>
